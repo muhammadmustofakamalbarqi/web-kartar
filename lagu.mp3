@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Karang Taruna</title>
+</head>
+<body>
+  <h1>Selamat Datang di Web Karang Taruna</h1>
+  <p>Ini halaman percobaan dengan musik latar.</p>
+
+  <!-- Pemutar musik tersembunyi -->
+  <audio id="lagu" loop>
+    <source src="https://muhammadmustofakamalbarqi.github.io/buruh/laguburuhtani.mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung audio.
+  </audio>
+
+  <!-- Tombol kontrol -->
+  <button onclick="document.getElementById('lagu').play()">▶ Play Musik</button>
+  <button onclick="document.getElementById('lagu').pause()">⏸ Pause Musik</button>
+</body>
+</html>
